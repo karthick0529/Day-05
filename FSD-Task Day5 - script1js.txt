@@ -1,0 +1,71 @@
+const userJSON ={
+  "name": "Karthick R",
+  "title": "Full Stack Developer",
+  "contact": {
+    "email": "karthicknandha619@gmail.com",
+    "phone": "7708241989",
+    "address": "37/35 A Shakthi Nagar 3rd street, Jothipuram, Coimbatore-641047"
+  },
+  "summary": "Results-oriented professional with 2.5 years of experience in Cognizant as a developer. Highly skilled in JavaScript, HTML, CSS, and MongoDB. and Passionate about developing a Web Application. Seeking opportunities to prove myself in a well-versed organization.",
+  "skills": [
+    {
+      "category": "Technical Skills",
+      "list": [
+        "C++",
+        "JavaScript",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "list": [
+        "Teamworker",
+        "Problem-solving",
+        "Time management"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Programmar Analyst",
+      "company": "Cognizant Technology Solutions",
+      "location": "Coimbatore, TamilNadu",
+      "dates": "October 2021 - March 2024",
+      "description": "As a Mainframe Developer, I was responsible for designing, coding, testing, and maintaining mainframe applications. I collaborated with cross-functional teams to gather requirements and translate them into technical specifications. I developed efficient and scalable solutions using languages such as COBOL, PL/I, or Assembler and worked with mainframe databases like DB2. I implemented best practices for performance optimization and code reuse, resulting in a 100% improvement in application efficiency. Additionally, I provided technical support and troubleshooting for production issues, contributing to a 100% reduction in downtime. I actively participated in code reviews and mentored junior developers to foster a collaborative and knowledge-sharing environment."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "institution": "KG College of Arts and Science",
+      "location": "Coimbatore, TamilNadu",
+      "dates": "June 2017 - May 2020"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Full Stack Developer - MERN Stack",
+      "authority": "GUVI",
+      "date": "August 2024"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "Tamil",
+      "proficiency": "Excellent"
+    }
+  ],
+  "references": [
+    {
+      "name": "Reference Name",
+      "company": "Company Name",
+      "position": "Position",
+      "contact": "Email or Phone Number"
+    }
+  ]
+};
