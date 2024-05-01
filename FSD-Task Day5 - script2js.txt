@@ -1,0 +1,43 @@
+const userJSON = {
+  "name": "Karthick R",
+  "title": "Full Stack Developer",
+  "contact": {
+    "email": "karthicknandha619@gmail.com",
+    "phone": "7708241989",
+    "address": "37/35 A Shakthi Nagar 3rd street, Jothipuram, Coimbatore-641047"
+  },
+  "summary": "Results-oriented professional with 2.5 years of experience in Cognizant as a developer. Highly skilled in JavaScript, HTML, CSS, and MongoDB. Passionate about developing a Web Application. Seeking opportunities to prove myself in a well-versed organization.",
+  "skills": [
+    {
+      "category": "Technical Skills",
+      "list": [
+        "C++",
+        "JavaScript",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "list": [
+        "Teamworker",
+        "Problem-solving",
+        "Time management"
+      ]
+    }
+  ],
+  // ... (other properties)
+};
+
+// Using a for loop to iterate over the skills
+console.log("Technical Skills:");
+for (let i = 0; i < userJSON.skills.length; i++) {
+  const skillCategory = userJSON.skills[i].category;
+  const skillList = userJSON.skills[i].list.join(", ");
+  console.log(`${skillCategory}: ${skillList}`);
+}
+
+// Using a for-in loop to iterate over the contact details
+console.log("\nContact Details:");
+for (const key in userJSON.contact) {
+  console.log(`${key}: ${userJSON.contact[key]}`);
+}
