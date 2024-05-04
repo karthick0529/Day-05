@@ -41,3 +41,17 @@ console.log("\nContact Details:");
 for (const key in userJSON.contact) {
   console.log(`${key}: ${userJSON.contact[key]}`);
 }
+
+// Iterating over skills using for-of loop
+console.log("Technical Skills:");
+for (const skill of userJSON.skills) {
+  const skillCategory = skill.category;
+  const skillList = skill.list.join(", ");
+  console.log(`${skillCategory}: ${skillList}`);
+}
+
+// Iterating over contact details using forEach method
+console.log("\nContact Details:");
+Object.entries(userJSON.contact).forEach(([key, value]) => {
+  console.log(`${key}: ${value}`);
+});
